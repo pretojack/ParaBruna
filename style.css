@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(230, 116, 186);
+    padding: 2rem;
+}
+
+
+
+.title {
+    
+    background-color: rgba(39, 39, 102, 0.637);
+    width:  500px;
+    height: 100px;
+    text-align: center;
+    color: #800080;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+    border-radius: 200px;
+    
+    
+}
+.text {
+    
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(39, 39, 102, 0.637);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    border-radius: 200px;
+    
+}
+.Titulo-msn {
+    color: #6d0266d8;
+}
+.SobreBruna{
+    color: rgb(153, 6, 6);
+} 
+
+.mensbruna {
+    color: #6d0266d8;
+}
+.mensagemB {
+    color: rgb(153, 6, 6);
+}
+
+.brunapic{
+    position: absolute;
+}
+.picbruna{
+    width: 350px;
+    height: 420px;
+    border-radius: 20px;
+}
+.picbruna2 {
+    width: 350px;
+    height: 420px;
+    border-radius: 20px;
+}
+.brunapic2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 40px ;
+    margin-right: 40px;
+    
+    
+}
+
+.picbruna3 {
+    position: relative;
+    margin-top: 30px;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgba(132, 148, 165, 0.98);
+    transform: rotate(-90deg);
+    
+}
+
+.picbruna4 {
+    margin-left: 25px;
+    position: relative;
+    margin-top: 25px;
+    width: 350px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: blue;
+    
+}
+.coração{
+    position: absolute;
+    z-index: 3;
+    left: 41%;
+}
+
+.corac {
+    width: 15px;
+    height: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    .title {
+        padding-top: 30px;
+        scale: 50%;
+        position: absolute;
+        left: 20%;
+    }
+
+    .text {
+        padding-top: 50px;
+        scale: 55%;
+        position: absolute;
+        left: 14%;
+        transform: translate(-50%, 15%);
+
+    }
+
+    .coração {
+        scale: 50%;
+        position: absolute;
+        top: 60px;
+        left: 10%;
+    }
+
+    .corac {
+        scale: 100%;
+        
+    }
+
+    .brunapic{
+        position: absolute;
+        left: -100px;
+        top: +0px;
+
+    }
+    .picbruna {
+        scale: 25%;
+    }
+
+    .picbruna2 {
+        scale: 25%;
+    }
+
+    .brunapic2{
+        position: absolute;
+        right: -180px;
+        top: -25px;
+    }
+    .picbruna3 {
+        scale: 25%;
+    }
+
+    .picbruna4 {
+        scale: 25%;
+    }
+
+}
